@@ -1,0 +1,90 @@
+
+.main-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+.number {
+    color: #e80c6f;
+    font-size: 120px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-right: 40px;
+    /* src: url('../font/Roboto-Regular.ttf') format('truetype'); */
+    
+}
+
+.buttons-container {
+    padding-top: 40px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.startBtn {
+    background-color: #e80c6f;
+    color: white;
+    height: 50px;
+    width: 130px;
+    border-radius: 16px;
+    border-width: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-right: 50px;
+    cursor: pointer;
+    transition-property: all 1s linear 1s;
+}
+.startBtn:hover{
+
+    background-color: rgb(228, 151, 197);
+    
+}
+
+
+.stopBtn {
+    background-color: #e80c6f;
+    color: white;
+    height: 50px;
+    width: 130px;
+    border-radius: 16px;
+    border-width: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-right: 50px;
+    cursor: pointer;
+    transition-property: all 1s linear 1s;
+}
+
+.stopBtn:hover{
+
+    background-color: rgb(228, 151, 197);
+    
+}
+
+.resetBtn {
+    background-color: #e80c6f;
+    color: white;
+    height: 50px;
+    width: 130px;
+    border-radius: 16px;
+    border-width: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto";
+    cursor: pointer;
+   
+    transition-property: all 1s linear 1s;
+}
+
+.resetBtn:hover{
+
+    background-color: rgb(228, 151, 197);
+    
+}  
